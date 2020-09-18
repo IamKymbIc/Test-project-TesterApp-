@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/questionRelative"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/questionTxt"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:text="Пример вопроса"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recycleViewAnswer"
+       android:layout_below="@+id/questionTxt"
+        android:layout_marginTop="10dp"/>
+
+    </LinearLayout>

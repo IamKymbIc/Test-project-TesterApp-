@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">TesterApp</string>
+
+    <string name="title_activity_login_activity">login_activity</string>
+
+
+    <string name="title_activity_teacher_">teacher_Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_create_test">CreateTestActivity</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="next">Next</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="my_test">Мои тесты</string>
+    <string name="add_test">Добавить тест</string>
+    <string name="result">Результаты</string>
+
+    <string name="title_sign_in_tb">Авторизация</string>
+    <string name="title_register_tb">Регистрация</string>
+
+    <string name="title_create_test_tb">Создание теста</string>
+    <string name="finish_item">finish</string>
+    <string name="akk">Аккаунт</string>
+    <string name="title_activity_main_teacher">MainActivityTeacher</string>
+
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+    <string name="question_list">Список вопросов</string>
+    <string name="start">Начать</string>
+    <string name="finish">Завершить</string>
+    <string name="email">Email</string>
+    <string name="name">ФИО</string>
+    <string name="teacher">Преподаватель</string>
+    <string name="student">Студент</string>
+    <string name="password">Пароль</string>
+    <string name="confirm_password">Подтвердите пароль</string>
+    <string name="registration">Зарегистрироваться</string>
+    <string name="enter">Войти</string>
+    <string name="auth">Авторизация</string>
+    <string name="add_question">Добавить вопрос</string>
+    <string name="question">Вопрос</string>
+    <string name="answer">Ответ</string>
+    <string name="name_of_test">Наименоваиние теста</string>
+    <string name="cancel">Отмена</string>
+    <string name="next_step">Далее</string>
+    <string name="last_step">Последние шаги</string>
+    <string name="test_password">Пароль (не обязательно)</string>
+    <string name="publication">Опубликовать тестовое задание…</string>
+    <string name="later">Позже</string>
+    <string name="now">Сейчас</string>
+    <string name="ps">Вы можете опубликовать свой тест в любой момент, перейдя в настройки теста в главном меню.</string>
+    <string name="limited_test">Доступ к тесту ограничен, введите пароль.</string>
+    <string name="or">или</string>
+    <string name="sign_in_info">Добро пожаловать.\nВойдите в учетную запись, чтобы продолжить.</string>
+    <string name="status">Статус</string>
+    <string name="pass_test">Пароль к тесту</string>
+    <string name="apply_changes">Применить изменения</string>
+
+</resources>

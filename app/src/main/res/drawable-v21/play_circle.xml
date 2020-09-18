@@ -1,0 +1,9 @@
+<!-- drawable/play-circle.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="50dp"
+    android:width="50dp"
+    android:viewportWidth="25"
+    android:viewportHeight="25">
+    <path android:fillColor="@color/positive"
+        android:pathData="M10,16.5V7.5L16,12M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" />
+</vector>

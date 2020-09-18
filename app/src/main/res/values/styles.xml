@@ -1,0 +1,32 @@
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryVariant</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+
+        <item name="cardViewStyle">@style/MyCardViewStyle</item>
+        <item name="tabStyle">@style/TabLayout</item>
+        <item name="toolbarStyle">@style/Widget.MaterialComponents.Toolbar.Primary</item>
+        <item name="appBarLayoutStyle">@style/Widget.MaterialComponents.AppBarLayout.Primary</item>
+        <item name="textInputStyle">@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox</item>
+
+    </style>
+    
+    <style name="MyCardViewStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">3dp</item>
+        <item name="contentPadding">6dp</item>
+    </style>
+
+    <style name="TabLayout" parent="Widget.MaterialComponents.TabLayout.Colored">
+        <item name="backgroundColor">@color/colorPrimary</item>
+        <item name="tabIndicatorColor">@color/colorSecondary</item>
+        <item name="tabIndicatorHeight">3dp</item>
+        <item name="tabSelectedTextColor">@color/colorLightText</item>
+    </style>
+
+
+
+</resources>

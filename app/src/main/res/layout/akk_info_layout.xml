@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tv_Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceBody1"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textAppearance="?attr/textAppearanceBody1"/>
+
+    <TextView
+        android:id="@+id/tv_Stat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textAppearance="?attr/textAppearanceBody1"/>
+
+    <Button
+        android:id="@+id/signOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Выйти из аккаунта"
+        style="@style/Widget.MaterialComponents.Button.TextButton.Dialog"
+        android:textColor="@color/negative"/>
+
+</LinearLayout>
